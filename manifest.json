@@ -1,0 +1,15 @@
+{
+  "name": "Facebook Event Puller",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+  "name": "Click to pull Facebook event"
+  },
+  "background":{
+    "scripts":["jquery-3.1.1.min.js", "background.js"]
+  },
+  "permissions":[
+    "tabs",
+    "https://www.facebook.com/events/*"
+  ]
+ }

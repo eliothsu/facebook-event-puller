@@ -1,5 +1,3 @@
-# facebook-event-puller
-
 Facebook Event Puller
 ================
 A chrome extension that scrapes a Facebook event on the current tab into a Google Calendar event.

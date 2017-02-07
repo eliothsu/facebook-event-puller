@@ -10,7 +10,6 @@ function scrapeEvent() {
 			document.getElementsByClassName("see_more_link")[0].click();
 		}
 		var raw_time = document.getElementsByClassName("_publicProdFeedInfo__timeRowTitle _5xhk")[0].getAttribute("content");
-		// var raw_location_name = document.querySelectorAll('[data-testid="event-permalink-location"]')[0].innerHTML;
 		var raw_location_name = document.querySelectorAll('[data-testid="event-permalink-location"]');
 		var raw_location_address = "";
 		if (raw_location_name[0] == undefined) {
